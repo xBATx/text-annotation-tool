@@ -43,7 +43,10 @@ const validateAnnotation = ({ from, to }: Annotation): boolean => {
   return true;
 };
 
-const deviceDetailState = (state: AnnotationState, action: AppActions) => {
+const deviceDetailState = (
+  state: AnnotationState,
+  action: AppActions,
+): AnnotationState => {
   switch (action.type) {
     case SELECT_TEXT:
       return {

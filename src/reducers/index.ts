@@ -9,7 +9,10 @@ const defaultState = {
   annotation: annotationInitialState,
 };
 
-const rootReducer = (state: AppState = defaultState, action: Action) => ({
+const rootReducer = (
+  state: AppState = defaultState,
+  action: Action,
+): AppState => ({
   annotation: annotation(state.annotation, action as AppActions),
 });
 
