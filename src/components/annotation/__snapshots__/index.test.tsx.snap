@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "blue",
+        "display": "flex",
+        "height": 60,
+        "justifyContent": "flex-start",
+        "position": "relative",
+        "width": "100%",
+        "zIndex": 4,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "color": "white",
+          "left": "50%",
+          "position": "absolute",
+        }
+      }
+    >
+      Annotation tool
+    </div>
+    <div
+      style={
+        Object {
+          "position": "absolute",
+          "right": "5px",
+        }
+      }
+    >
+      <div>
+        <a
+          download="annotations.json"
+          href="data:text/json;charset=utf-8,%7B%22annotations%22%3A%5B%5D%2C%22relations%22%3A%5B%5D%2C%22text%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20nominavi%20rationibus%20vix%20in.%22%7D"
+          style={
+            Object {
+              "color": "white",
+              "padding": 5,
+            }
+          }
+        >
+          Download annotations
+        </a>
+        <span
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "white",
+              "cursor": "pointer",
+              "padding": 5,
+              "textDecoration": "underline",
+            }
+          }
+        >
+          New article
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "height": 60,
+        "position": "relative",
+        "width": "100%",
+        "zIndex": 2,
+      }
+    }
+  >
+    <label
+      style={
+        Object {
+          "paddingTop": 20,
+          "position": "absolute",
+          "right": "20px",
+        }
+      }
+    >
+      <input
+        checked={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      Show relations
+    </label>
+  </div>,
+  <div
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      id="article-text-content"
+      style={
+        Object {
+          "paddingBottom": "70px",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        style={
+          Object {
+            "height": "100%",
+            "whiteSpace": "pre-wrap",
+            "width": 900,
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet, nominavi rationibus vix in.
+      </div>
+    </div>
+  </div>,
+]
+`;

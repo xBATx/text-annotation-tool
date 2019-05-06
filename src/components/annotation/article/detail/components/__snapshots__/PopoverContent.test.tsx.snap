@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateRelationPopoverContent renders without crashing 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "2px solid black",
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "white",
+          "padding": 5,
+        }
+      }
+    >
+      1
+      . 
+      COREFERENCE
+    </span>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "white",
+          "padding": 5,
+        }
+      }
+    >
+      2
+      . 
+      INVOLVES
+    </span>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</div>
+`;
+
+exports[`PopoverContent renders without crashing 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "border": "2px solid black",
+      "display": "flex",
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "color": "white",
+        "padding": 5,
+      }
+    }
+  >
+    Category
+  </span>
+  <button
+    onClick={[MockFunction]}
+  >
+    X
+  </button>
+</div>
+`;

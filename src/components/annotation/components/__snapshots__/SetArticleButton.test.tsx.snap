@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<span
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "white",
+      "cursor": "pointer",
+      "padding": 5,
+      "textDecoration": "underline",
+    }
+  }
+>
+  New article
+</span>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "height": "100%",
+      "whiteSpace": "pre-wrap",
+      "width": 900,
+    }
+  }
+>
+  <span
+    className="0:1:FULL_NAME"
+    id="0:1:FULL_NAME"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "orange",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "padding": "2px",
+      }
+    }
+  >
+    L
+  </span>
+  orem ipsum dolor
+</div>
+`;
+
+exports[`renders without crashing with new lines 1`] = `
+<div
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "height": "100%",
+      "whiteSpace": "pre-wrap",
+      "width": 900,
+    }
+  }
+>
+  <span
+    className="0:1:FULL_NAME"
+    id="0:1:FULL_NAME"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "orange",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "padding": "2px",
+      }
+    }
+  >
+    L
+  </span>
+  orem ipsum dolor
+
+
+ 
+  <span
+    className="1:4:FULL_NAME"
+    id="1:4:FULL_NAME"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "orange",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "padding": "2px",
+      }
+    }
+  >
+    sunset
+  </span>
+   beach
+</div>
+`;

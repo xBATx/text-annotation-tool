@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<a
+  download="annotations.json"
+  href="data:text/json;charset=utf-8,%7B%22annotations%22%3A%5B%7B%22id%22%3A%220%3A1%3AFULL_NAME%22%2C%22from%22%3A0%2C%22to%22%3A1%2C%22category%22%3A%22FULL_NAME%22%2C%22text%22%3A%22L%22%7D%5D%2C%22relations%22%3A%5B%7B%22id%22%3A%22A-%3EB%22%2C%22from%22%3A%22A%22%2C%22to%22%3A%22B%22%2C%22category%22%3A%22COREFERENCE%22%7D%5D%2C%22text%22%3A%22Hello%20Text%22%7D"
+  style={
+    Object {
+      "color": "white",
+      "padding": 5,
+    }
+  }
+>
+  Download annotations
+</a>
+`;

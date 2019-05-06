@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A8n renders without crashing not selected 1`] = `
+<span
+  className="0:1:FULL_NAME"
+  id="0:1:FULL_NAME"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "backgroundColor": "orange",
+      "borderRadius": "2px",
+      "cursor": "pointer",
+      "padding": "2px",
+    }
+  }
+>
+  Text
+</span>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "blue",
+        "display": "flex",
+        "height": 60,
+        "justifyContent": "flex-start",
+        "position": "relative",
+        "width": "100%",
+        "zIndex": 4,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "color": "white",
+          "left": "50%",
+          "position": "absolute",
+        }
+      }
+    >
+      Hello title
+    </div>
+  </div>,
+  "Hello I'm child",
+]
+`;

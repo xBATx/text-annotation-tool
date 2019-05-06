@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  onMouseUp={[MockFunction]}
+  style={
+    Object {
+      "background": "lightblue",
+      "cursor": "pointer",
+      "flexGrow": 1,
+      "padding": 5,
+    }
+  }
+>
+  1
+  . 
+  FIRST_NAME
+</div>
+`;
