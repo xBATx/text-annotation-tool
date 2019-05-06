@@ -1,8 +1,19 @@
 ## About
 
-This project is implementation of text evaluation and annotation tool as desktop web application.
-It can be divided to 2 parts - evaluation and annotation.
-Annotation part should be primarily used for annotating articles - marking and visualisation of words that have specific semantic from ML point of view.
+This project is implementation of text annotation tool as desktop web application.
+Tool was created for annotating text - marking and visualisation of words that have specific semantic.
+Annotations are created by selecting text and clicking on specific value from popover. 
+Relations between annotations can be created by clicking on other annotation while one is selecting and holding `ctrl` or `cmd` or `alt` key.
+Relations and annotation can be removed by clicking backspace when annotation or relation is selected. 
+
+This tool was implemented with:
+
+React + Redux + Typescript 
+
+https://github.com/juliankrispel/react-text-selection-popover - for popovers on selected text
+https://github.com/kdeloach/react-lineto - for drawing lines between annotations
+https://github.com/littlebits/react-popover - for showing selected annotation or relation
+
 
 ## Available Scripts
 
