@@ -23,6 +23,7 @@ interface Props {
   addAnnotation: (a: Annotation) => void;
   selectText: (s: SelectedText | null) => void;
   selectedText: SelectedText | null;
+  textLength: number;
 }
 
 export class HighlightedTextSelector extends React.Component<Props> {
@@ -74,8 +75,15 @@ export class HighlightedTextSelector extends React.Component<Props> {
 
   handleMouseUp = (e: Event): void => {
     if (clickedOutsideOfPopover(document, e.target, 'annotation-popover')) {
+      const { textLength } = this.props;
       const v = getSelectedTextValues(document, 'article-text-content');
-      if (v.from >= 0 && v.to >= 0 && v.text.length > 0) {
+      if (
+        v.from >= 0 &&
+        v.to >= 0 &&
+        v.to <= textLength &&
+        v.from <= textLength &&
+        v.text.length > 0
+      ) {
         this.props.selectText(v);
       }
     }
@@ -137,6 +145,7 @@ export class HighlightedTextSelector extends React.Component<Props> {
 const mapStateToProps = (state: AppState) => {
   return {
     selectedText: state.annotation.selectedText,
+    textLength: state.annotation.text.length,
   };
 };
 

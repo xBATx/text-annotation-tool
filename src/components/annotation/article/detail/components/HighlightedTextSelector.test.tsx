@@ -19,6 +19,7 @@ it('renders without crashing', () => {
           scrollingStarted,
           scrollingStopped,
           isScrolling: false,
+          textLength: 20,
         }}
       />,
     )
