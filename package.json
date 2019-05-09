@@ -23,7 +23,7 @@
     "react-popover": "^0.5.10",
     "react-redux": "^6.0.0",
     "react-scripts": "^3.0.0",
-    "react-text-selection-popover": "github:xBATx/react-text-selection-popover#b49d9bc328980621fcd49e2c07e6e2c20b2ec070",
+    "react-text-selection-popover": "xBATx/react-text-selection-popover",
     "redux": "^4.0.1"
   },
   "scripts": {
