@@ -10,7 +10,7 @@ Relations and annotation can be removed by clicking backspace when annotation or
 
 Basic purpose of this application is to `import text` -> `annotate it` -> `export text with data`.
 
-Keyboard shortcuts:
+#### Keyboard shortcuts:
 
 - `(ctrl or alt)+click` on other annotation when one is selected - creates relation between these 2
 - when the text is marked - numbers from `1` to `N` annotates selected text with specific category related to this number.
@@ -18,7 +18,7 @@ Keyboard shortcuts:
 - `escape` - cancel creating annotation/relation
 - `backspace` - remove selected annotation/relation
 
-This tool was implemented with:
+#### This tool was implemented with:
 
 React + Redux + Typescript 
 
@@ -27,6 +27,35 @@ React + Redux + Typescript
 - https://github.com/littlebits/react-popover - for showing selected annotation or relation
 - https://github.com/mojotech/json-type-validation - for checking types while importing JSON data
 
+## Data Import & Export
+To import text or exported data use button in top right corner. After that, you will see popup with text field where you 
+can import raw text or json in export format. Entered JSON is validated immediately and after submit you should see 
+the data in app. After annotation process, data can be exported by hitting download button in the top right corner.
+
+ 
+#### Export and import data format:
+```
+{
+    "annotations": [
+        {
+            "category": ann_category,
+            "from": start_text_index,
+            "id": string,
+            "text": string,
+            "to": end_text_index
+        },
+    ],
+    "relations": [
+        {
+            "category": category,
+            "from": ann_id - string,
+            "id": ann_id - string,
+            "to": "2085:2093:LAST_NAME"
+        }
+    ],
+    "text": string
+}
+```
 
 ## Available Scripts
 
