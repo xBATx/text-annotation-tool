@@ -2,9 +2,21 @@
 
 This project is implementation of text annotation tool as desktop web application.
 Tool was created for annotating text - marking and visualisation of words that have specific semantic.
-Annotations are created by selecting text and clicking on specific value from popover. 
-Relations between annotations can be created by clicking on other annotation while one is selecting and holding `ctrl` or `cmd` or `alt` key.
+Annotations are created by selecting text and clicking on specific value from popover or hitting number on keyboard. 
+Relations between annotations can be created by clicking on other annotation while one is selecting annotation and holding `ctrl` or `cmd` or `alt` key.
 Relations and annotation can be removed by clicking backspace when annotation or relation is selected. 
+
+#### You can try it yourself on [heroku](https://text-a8n-tool.herokuapp.com) 
+
+Basic purpose of this application is to `import text` -> `annotate it` -> `export text with data`.
+
+Keyboard shortcuts:
+
+0. (ctrl or alt)+click on other annotation when one is selected - creates relation between these 2
+1. when the text is marked - numbers from 1 to N annotates selected text with specific category related to this number.
+2. same when creating relation between annotations
+3. escape - cancel creating annotation/relation
+4. backspace - remove selected annotation/relation
 
 This tool was implemented with:
 
@@ -13,6 +25,7 @@ React + Redux + Typescript
 https://github.com/juliankrispel/react-text-selection-popover - for popovers on selected text
 https://github.com/kdeloach/react-lineto - for drawing lines between annotations
 https://github.com/littlebits/react-popover - for showing selected annotation or relation
+https://github.com/mojotech/json-type-validation - for checking types while importing data
 
 
 ## Available Scripts

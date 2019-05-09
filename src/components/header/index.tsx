@@ -20,6 +20,20 @@ export default ({ title, children, actionsPanel }: Props) => (
         zIndex: 4,
       }}
     >
+      <a
+        href="https://github.com/xBATx/text-annotation-tool"
+        style={{ left: '5px', position: 'absolute' }}
+      >
+        <img
+          style={{
+            color: 'white',
+            height: '40px',
+            width: '40px',
+            cursor: 'pointer',
+          }}
+          src="github.png"
+        />
+      </a>
       <div style={{ color: 'white', left: '50%', position: 'absolute' }}>
         {title}
       </div>
