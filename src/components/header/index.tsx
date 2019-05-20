@@ -22,13 +22,13 @@ export default ({ title, children, actionsPanel }: Props) => (
     >
       <a
         href="https://github.com/xBATx/text-annotation-tool"
-        style={{ left: '5px', position: 'absolute' }}
+        style={{ left: '15px', position: 'absolute' }}
       >
         <img
           style={{
             color: 'white',
-            height: '40px',
-            width: '40px',
+            height: '25px',
+            width: '25px',
             cursor: 'pointer',
           }}
           src="github.png"

@@ -38,7 +38,7 @@ class Relation extends React.Component<Props> {
     } = this.props;
     return (
       <SteppedLineTo
-        className={`${id} cursor-pointer`}
+        className={`${id} opacity-with-cursor-pointer`}
         from={from}
         to={to}
         borderStyle={selected ? 'dashed' : 'solid'}
