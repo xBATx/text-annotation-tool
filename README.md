@@ -41,19 +41,19 @@ the data in app. After annotation process, data can be exported by hitting downl
 {
     "annotations": [
         {
-            "category": ann_category,
-            "from": start_text_index,
             "id": string,
             "text": string,
+            "category": ann_category,
+            "from": start_text_index,
             "to": end_text_index
         },
     ],
     "relations": [
         {
+            "id": string,
             "category": category,
             "from": ann_id - string,
-            "id": ann_id - string,
-            "to": "2085:2093:LAST_NAME"
+            "to": ann_id - string
         }
     ],
     "text": string
