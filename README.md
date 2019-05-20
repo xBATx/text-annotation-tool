@@ -1,10 +1,13 @@
 ## About
 
-This project is implementation of text annotation tool as desktop web application.
+This project is implementation of text annotation tool as a desktop web application.
 Tool was created for annotating text - marking and visualisation of words that have specific semantic.
 Annotations are created by selecting text and clicking on specific value from popover or hitting number on keyboard. 
 Relations between annotations can be created by clicking on other annotation while one is selecting annotation and holding `ctrl` or `cmd` or `alt` key.
 Relations and annotation can be removed by clicking backspace when annotation or relation is selected. 
+
+This tool was originally written during work for [CEAi, Inc](https://ceai.io). 
+Thanks to their awesomeness for letting me do all my work for them in the open!
 
 #### You can try it yourself on [heroku](https://text-a8n-tool.herokuapp.com) 
 
